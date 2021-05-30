@@ -1,0 +1,138 @@
+body {
+  font-family: sans-serif;
+}
+
+a:hover,
+a:active {
+  background-color: w3-blue;
+  color: black;
+}
+
+a:link,
+a:visited {
+  background-color: w3-blue;
+  color: whitesmoke;
+  border: 2px solid w3-blue;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-center {
+  margin-left: 30%;
+  font-size: larger;
+}
+
+.body-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(170, 169, 169);
+}
+.form-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: whitesmoke;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+}
+.form-control {
+  border-color: black;
+}
+.search {
+  padding: 8px;
+  float: center;
+  margin-top: 8px;
+  margin-left: 40%;
+  font-size: 17px;
+  border: 1px solid grey;
+
+  width: 40%;
+  background: #f1f1f1;
+}
+
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-btn:hover {
+  background-color: #8b8686;
+  color: #f1f1f1;
+}
+
+.active {
+  background-color: rgb(0, 77, 128);
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+}
+
+.fa-caret-down {
+  padding-right: 8px;
+}
+
+.dropdown-link {
+  float: right;
+  font-size: 18px;
+}
+
+.add-frm {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.table-cont {
+  margin-left: 10%;
+  background-color: red;
+}
+
+.main {
+  margin-top: 5%;
+  margin-left: 29%;
+  font-size: 28px;
+  padding: 0 10px;
+  width: 58%;
+}
+
+.main h2 {
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.main .card {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 1px 1px 8px 0 grey;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 20px 0 20px 50px;
+}
+
+.main .card table {
+  border: none;
+  font-size: 16px;
+  height: 270px;
+  width: 80%;
+}
+
+.btn-left {
+  float: right;
+  margin-right: 5px;
+}
